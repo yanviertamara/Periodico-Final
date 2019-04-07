@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+    <title>Nombre Periodico</title>
+		<link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleMenu.css">
+		<script type="text/javascript" src="../js/script.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<header>
+			    <a href="../index.html"> <h1>Nombre periodico</h1></a>
+	    </header>
+
+
+	      <nav>
+	        <ul class="menu">
+	          <li><a href="../index.html">Pagina principal</a>
+	            <ul>
+	              <li><a href="../index.html#ultimo">Lo ultimo</a></li>
+	              <li><a href="../index.html#regional">En tu Region</a></li>
+	              <li><a href="../index.html#deportes">En deportes</a></li>
+	              <li><a href="../index.html#otros">En otras noticias</a></li>
+	              <li><a href="../index.html#sociales">Sociales </a></li>
+	              <li><a href="../index.html#curiosidades">Curiosidades</a></li>
+	            </ul>
+	          </li>
+	          <li><a href="pagRegional.html">Regional</a></li>
+	          <li><a href="pagDeportes.html">Deportes</a></li>
+	          <li><a href="pagInternacional.html">Otras ciudades e Internacionales</a></li>
+	          <li><a href="pagForm.html">Contactenos</a></li>
+	        </ul>
+	      </nav>
+
+			<section class="form">
+	      <article>
+					<fieldset>
+						<form action="#" method="post" onsubmit="valida(this)">
+							<label for="nombres">Nombres:</label><br>
+							<input type="text" size="20" autofocus id="nombres"><br><br>
+
+							<label for="apellidos">Apellidos:</label><br>
+							<input type="text" size="20"  id="apellidos"><br><br>
+
+							<label for="foto">Inserte su foto aqui:</label><br>
+							<input type="file" name="foto" value="" id="foto"><br><br>
+
+							<label for="genero">Seleccione su genero:</label><br>
+							<label for="masculino">Masculino:</label>
+							<input type="radio" name="1">
+							<label for="femenino">Femenino:</label>
+							<input type="radio" name="1"><br><br>
+
+							<label for="edad">Seleccione su edad:</label><br>
+							<select name="edad" id="edad" ver>
+								<option value="selec">Seleccione</option>
+								<option value="020">0 - 20</option>
+								<option value="2040">20 - 40</option>
+								<option value="4060">40 - 80</option>
+							</select><br><br>
+
+							<label for="email">E-mail:</label><br>
+							<input type="email" name="email" size="25" id="email"><br><br>
+
+							<label for="motComentario">Motivo comentario: para seleccionar mas de uno use la combinacion CTRL + Click</label><br>
+							<select name="motivo" multiple id="motivo">
+								<option value="1">Sugerencias</option>
+								<option value="2">Quejas</option>
+								<option value="3">Dudas</option>
+								<option value="4">Informacion</option>
+							</select><br><br>
+
+							<label for="comentarios">Comentarios:</label><br>
+							<textarea name="comentarios" rows="8" cols="30"></textarea><br><br>
+
+							<button type="submit">Enviar <img src="../images/imagen2.png"></button>
+							<button type="reset">Limpiar <img src="../images/imagen3.png"></button>
+
+						</form>
+					</fieldset>
+
+	      </article>
+	    </section>
+		</div>
+
+    <footer>
+			<div class="piePagina">
+				<ul>
+	        <li><a href="../index.html">Pagina principal</a></li>
+	        <li><a href="pagRegional.html">Regional</a></li>
+	        <li><a href="pagDeportes.html">Deportes</a></li>
+	        <li><a href="pagInternacional.html">Otras ciudades e Internacionales</a></li>
+	        <li><a href="pagForm.html">Contactenos</a></li>
+	      </ul>
+			</div>
+
+    </footer>
+	</body>
+</html>
